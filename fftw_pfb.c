@@ -10,6 +10,7 @@ int db(double x)
 
 int main() {
 // define initial variables and plans
+<<<<<<< HEAD
 	int i; //index
 	int bin = 8;
 	int N = 2048; // samplerate
@@ -20,6 +21,16 @@ int main() {
 	double *in;
 	double *in2;
 	double nu; // frequency
+=======
+	int i;
+	int bin = 8;
+	double *in;
+	double *in2;
+	int N = 2048; // samplerate
+	int Nc = (N/2) + 1;
+	double nu; // frequency
+	int P = 5; 
+>>>>>>> 204c57ef1a944f2d126c828e7ee148c037db314f
 	
 	// int Norm = -2/N;
 	FILE *file_i;
